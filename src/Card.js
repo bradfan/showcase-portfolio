@@ -11,7 +11,7 @@ const styles = {
     
   };
 
-function Card() {
+function Card(props) {
   return (
     <div>
 
@@ -35,7 +35,7 @@ function Card() {
       </div>
 
     </div>
-  );
+  )
 }
 
 export default Card;
