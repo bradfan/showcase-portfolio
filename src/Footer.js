@@ -1,27 +1,53 @@
-import React from 'react'
+import React from "react";
 
 const styles = {
-
-    textAlign: "center",
-    justifyContent: "space-between",
-    backgroundColor: " ",
-}
+  textAlign: "center",
+  width: "100%",
+  backgroundColor: "darkslategrey",
+};
+const lineStyle = {
+  listStyleType: "none",
+  display: "inline",
+  display: "inline-block",
+  margin: "40px",
+};
 
 function Footer() {
-    return (
-        <div>
-            <nav> 
-         <ul>
-           <a href="mailto:brt.jst@gmail.com"><li>Email</li></a>
-            <a href="tel:520-304-2384"><li>Phone: 520-304-2384</li></a>
-            <a href="https://www.linkedin.com/in/brad-tomlinson-90210/" target="blank"><li>LinkedIn</li></a>
-            <a href="https://github.com/bradfan" target="blank"><li>Github</li></a>
-            <a href="https://drive.google.com/file/d/1XUXm46d8D-63uvcl7VKwCBYiSriAjOza/view?usp=sharing" target="blank"><li>Resume</li></a>
-         </ul>
-      </nav> 
-            
-        </div>
-    )
+  return (
+    <div style={styles}>
+      <nav>
+        <ul>
+          <li style={lineStyle}>
+            <a href="mailto:brt.jst@gmail.com">Email</a>
+          </li>
+          <li style={lineStyle}>
+            <a href="tel:520-304-2384">Phone: 520-304-2384</a>
+          </li>
+          <li style={lineStyle}>
+            <a
+              href="https://www.linkedin.com/in/brad-tomlinson-90210/"
+              target="blank"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li style={lineStyle}>
+            <a href="https://github.com/bradfan" target="blank">
+              Github
+            </a>
+          </li>
+          <li style={lineStyle}>
+            <a
+              href="https://drive.google.com/file/d/1XUXm46d8D-63uvcl7VKwCBYiSriAjOza/view?usp=sharing"
+              target="blank"
+            >
+              Resume
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
