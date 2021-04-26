@@ -1,42 +1,42 @@
 [
     {
       "id": 1,
-      "name": " ",
-      "image": " ",
+      "name": "Password Generator",
+      "image": "/images/generator.png",
       "github": " ",
       "deployed": " "
     },
     {
         "id": 2,
-        "name": " ",
+        "name": "Day Planner",
         "image": " ",
         "github": " ",
         "deployed": " "
       },
       {
         "id": 3,
-        "name": " ",
+        "name": "Weather Dashboard",
         "image": " ",
         "github": " ",
         "deployed": " "
       },
       {
         "id": 4,
-        "name": " ",
+        "name": "Fitness Tracker",
         "image": " ",
         "github": " ",
         "deployed": " "
       },
       {
         "id": 5,
-        "name": " ",
+        "name": "Budget Tracker ",
         "image": " ",
         "github": " ",
         "deployed": " "
       },
       {
         "id": 6,
-        "name": " ",
+        "name": "Employee Directory",
         "image": " ",
         "github": " ",
         "deployed": " "
