@@ -18,7 +18,7 @@ const lineStyle = {
 
 const name = {
   float: "right",
-  marginRight: "60px",
+  marginRight: "10%",
   fontWeight: "600",
   fontSize: "10rem",
 };
@@ -28,7 +28,7 @@ const pic = {
   height: "300px",
   border: "3px solid black",
   borderRadius: "10px",
-  marginLeft: "10px",
+  marginLeft: "5%",
 };
 
 function Header() {

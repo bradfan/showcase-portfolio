@@ -8,6 +8,8 @@ const styles = {
   padding: "0 10px",
   border: "3px solid black",
   borderRadius: "10px",
+  
+  backgroundColor: "#FAEBD7",
 };
 const lineStyle = {
   listStyleType: "none",
