@@ -8,7 +8,7 @@
   },
   {
     "name": "Day Planner",
-    "description": "This application helps to organize tasks and appointments throughout the workday",
+    "description": "This application helps to organize tasks and appointments throughout the workday.",
     "image": "/images/dayplanner.png",
     "github": "https://github.com/bradfan/day-planner",
     "deployed": "https://bradfan.github.io/day-planner/"

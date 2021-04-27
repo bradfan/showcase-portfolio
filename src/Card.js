@@ -8,19 +8,23 @@ const styles = {
   padding: "0 10px",
   border: "3px solid black",
   borderRadius: "10px",
-  
 };
 
-function Card({props}) {
+function Card({ props }) {
   return (
     <div>
-
       <div style={styles} className="card">
         <div className="img-container">
-          <img 
-          style={{ width: "200px", height: "200px" }}
-          src={props.image} 
-          alt={props.name} />
+          <img
+            style={{
+              width: "200px",
+              height: "200px",
+              border: "1px solid black",
+              borderRadius: "10px",
+            }}
+            src={props.image}
+            alt={props.name}
+          />
         </div>
         <div className="content">
           <ul>
@@ -31,18 +35,24 @@ function Card({props}) {
               <strong>Description: {props.description}</strong>
             </li>
             <li>
-              <strong><a href={props.github} target="_blank" >Click Here to view the Github Repo</a></strong>  
+              <strong>
+                <a href={props.github} target="_blank">
+                  Click Here to view the Github Repo
+                </a>
+              </strong>
             </li>
             <li>
-            <strong><a href={props.deployed} target="_blank" >Click Here for the Deployed Application</a></strong> 
-              
+              <strong>
+                <a href={props.deployed} target="_blank">
+                  Click Here for the Deployed Application
+                </a>
+              </strong>
             </li>
           </ul>
         </div>
       </div>
-
     </div>
-  )
+  );
 }
 
 export default Card;

@@ -1,5 +1,5 @@
 import React from "react";
-import background from "./images/hero.jpg";
+import background from "./images/header.jpg";
 import face from "./images/face.jpeg";
 
 const styles = {
@@ -14,13 +14,15 @@ const lineStyle = {
 };
 
 const name = {
-  float: "left",
-  marginLeft: "20px",
+  float: "right",
+  marginRight: "60px",
 };
 
 const pic = {
    width: "300px", 
    height: "300px",
+   border: "3px solid black",
+   borderRadius: "10px",
    
   // marginRight: "20px",
 };
@@ -30,32 +32,32 @@ function Header() {
     <div style={styles}>
       <nav>
         <ul>
-          <a href="mailto:brt.jst@gmail.com">
+        <strong><a href="mailto:brt.jst@gmail.com">
             <li style={lineStyle}>Email</li>
-          </a>
-          <a href="tel:520-304-2384">
+          </a></strong> 
+      <strong><a href="tel:520-304-2384">
             <li style={lineStyle}>Phone: 520-304-2384</li>
-          </a>
-          <a
+          </a></strong> 
+          <strong><a
             href="https://www.linkedin.com/in/brad-tomlinson-90210/"
             target="blank"
           >
             <li style={lineStyle}>LinkedIn</li>
-          </a>
-          <a href="https://github.com/bradfan" target="blank">
+          </a></strong>
+          <strong><a href="https://github.com/bradfan" target="blank">
             <li style={lineStyle}>Github</li>
-          </a>
-          <a
+          </a></strong>
+          <strong><a
             href="https://drive.google.com/file/d/1XUXm46d8D-63uvcl7VKwCBYiSriAjOza/view?usp=sharing"
             target="blank"
           >
-            <li style={lineStyle}>Resume</li>
-          </a>
+            <li style={lineStyle}>My Resume</li>
+          </a></strong>
         </ul>
       </nav>
 
-      <div style={name} class="my_name ">
-        Brad Tomlinson
+      <div style={name} class="my_name "><strong><h1>
+        Brad Tomlinson</h1></strong>
       </div>
       <img src= {face} style={pic} alt="Brad Tomlinson" />
     </div>
