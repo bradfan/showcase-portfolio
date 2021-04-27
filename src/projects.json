@@ -2,21 +2,21 @@
     {
       "id": 1,
       "name": "Password Generator",
-      "image": "./images/password.jpg",
+      "image": "/images/password.jpg",
       "github": "https://github.com/bradfan/Password-Generator",
       "deployed": "https://bradfan.github.io/Password-Generator/"
     },
     {
         "id": 2,
         "name": "Day Planner",
-        "image": "./images/dayplanner.png",
+        "image": "/images/dayplanner.png",
         "github": "https://github.com/bradfan/day-planner",
         "deployed": "https://bradfan.github.io/day-planner/"
       },
       {
         "id": 3,
         "name": "Weather Dashboard",
-        "image": "./images/weather.png",
+        "image": "/images/weather.png",
         "github": "https://github.com/bradfan/Weather-Dashboard",
         "deployed": "https://bradfan.github.io/Weather-Dashboard/"
       },

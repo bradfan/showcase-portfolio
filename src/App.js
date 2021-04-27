@@ -15,10 +15,7 @@ class App extends Component {
         <Header></Header>
         {this.state.projects.map((project) => (
           <Card
-            name={project.name}
-            image={project.image}
-            github={project.github}
-            deployed={project.deployed}
+            props={project}
           />
         ))}
         <Footer></Footer>

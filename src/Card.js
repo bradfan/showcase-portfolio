@@ -11,7 +11,7 @@ const styles = {
   
 };
 
-function Card(props) {
+function Card({props}) {
   return (
     <div>
 
@@ -25,7 +25,7 @@ function Card(props) {
               <strong>Name: {props.name}</strong>
             </li>
             <li>
-              <strong><a href={props.github} target="_blank" >Click Here for Github Repo Link</a></strong>  
+              <strong><a href={props.github} target="_blank" >Click Here to view the Github Repo</a></strong>  
             </li>
             <li>
             <strong><a href={props.deployed} target="_blank" >Click Here for the Deployed Application</a></strong> 

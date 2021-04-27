@@ -1,6 +1,6 @@
 import React from "react";
 import background from "./images/hero.jpg";
-// import face from "./images/face.jpeg";
+import face from "./images/face.jpeg";
 
 const styles = {
   fontFamily: "Roboto, Times New Roman, Times, serif",
@@ -13,14 +13,13 @@ const lineStyle = {
   margin: "40px",
 };
 
-
 const name = {
   float: "left",
   marginLeft: "20px",
 };
 
 const pic = {
-  // personalImage: `url(${face})`
+ 
   // float: "right",
   // marginRight: "20px",
 };
@@ -57,7 +56,7 @@ function Header() {
       <div style={name} class="my_name ">
         Brad Tomlinson
       </div>
-      <img alt="Brad Tomlinson"/>
+      <img src= {face} alt="Brad Tomlinson" />
     </div>
   );
 }
