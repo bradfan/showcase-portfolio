@@ -1,21 +1,21 @@
 import React from "react";
 
 const styles = {
-    // display: "flex",
-    // flexDirection: "row",
-    // float: "left",
-    // width: "33%",
-    padding: "0 10px",
-    border: "3px solid black",
-    borderRadius: "10px",
-    
-  };
+  display: "flex",
+  flexDirection: "row",
+  float: "left",
+  width: "50%",
+  padding: "0 10px",
+  border: "3px solid black",
+  borderRadius: "10px",
+  
+};
 
 function Card(props) {
   return (
     <div>
 
-      <div className="card">
+      <div style={styles} className="card">
         <div className="img-container">
           <img  src={props.image} alt={props.name} />
         </div>
