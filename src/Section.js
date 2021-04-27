@@ -1,7 +1,7 @@
 import React from "react";
 
 const styles = {
-    backgroundColor: "#FAEBD7",
+    backgroundColor: "#FFDEAD",
     fontFamily: "Roboto, Times New Roman, Times, serif",
     textAlign: "center",
 
@@ -17,7 +17,7 @@ function Section() {
         LinkedIn and Github profiles as well as view and print a copy of My Resume
         as well!
       </h5></strong>
-    <strong><h5 style={{fontWeight: "600",}}>Learn more about me <strong><a href="https://github.com/bradfan" target="blank">HERE!!</a></strong> </h5></strong>
+    <strong><h5 style={{fontWeight: "600", marginBottom: "-.33px"}}>Learn more about me <strong><a href="https://github.com/bradfan" target="blank">HERE!!</a></strong> </h5></strong>
     </div>
   );
 }

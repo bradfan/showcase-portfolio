@@ -3,7 +3,7 @@ import React from "react";
 const styles = {
   textAlign: "center",
   width: "100%",
-  backgroundColor: "darkslategrey",
+  backgroundColor: "#FFDEAD",
 };
 const lineStyle = {
   listStyleType: "none",
