@@ -29,7 +29,7 @@
   },
   {
     "name": "Budget Tracker",
-    "description": "This application allows you to keep track of your finances through expenses and income.",
+    "description": "This application allows you to keep track of your finances quickly and easily.",
     "image": "/images/fitness.png",
     "github": "https://github.com/bradfan/Budget-Tracker",
     "deployed": "https://finance-budget-tracker.herokuapp.com/"

@@ -9,6 +9,9 @@ const styles = {
   border: "3px solid black",
   borderRadius: "10px",
 };
+const lineStyle = {
+  listStyleType: "none",
+}
 
 function Card({ props }) {
   return (
@@ -28,23 +31,23 @@ function Card({ props }) {
         </div>
         <div className="content">
           <ul>
-            <li>
+            <li style={lineStyle}>
               <strong>Name: {props.name}</strong>
             </li>
-            <li>
+            <li style={lineStyle}>
               <strong>Description: {props.description}</strong>
             </li>
-            <li>
+            <li style={lineStyle}>
               <strong>
                 <a href={props.github} target="_blank">
                   Click Here to view the Github Repo
                 </a>
               </strong>
             </li>
-            <li>
+            <li style={lineStyle}>
               <strong>
                 <a href={props.deployed} target="_blank">
-                  Click Here for the Deployed Application
+                  Click Here to Deploy the Application
                 </a>
               </strong>
             </li>
