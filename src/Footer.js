@@ -7,7 +7,6 @@ const styles = {
 };
 const lineStyle = {
   listStyleType: "none",
-  display: "inline",
   display: "inline-block",
   margin: "40px",
 };
