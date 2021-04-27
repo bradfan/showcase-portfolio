@@ -10,13 +10,13 @@
         "id": 2,
         "name": "Day Planner",
         "image": "./images/dayplanner.png",
-        "github": "<a href = https://github.com/bradfan/day-planner target=blank/>",
+        "github": "https://github.com/bradfan/day-planner",
         "deployed": "https://bradfan.github.io/day-planner/"
       },
       {
         "id": 3,
         "name": "Weather Dashboard",
-        "image": "./images/weather.png ",
+        "image": "./images/weather.png",
         "github": "https://github.com/bradfan/Weather-Dashboard",
         "deployed": "https://bradfan.github.io/Weather-Dashboard/"
       },

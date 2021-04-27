@@ -57,7 +57,7 @@ function Header() {
       <div style={name} class="my_name ">
         Brad Tomlinson
       </div>
-      <img alt="Brad Tomlinson" />
+      <img alt="Brad Tomlinson"/>
     </div>
   );
 }

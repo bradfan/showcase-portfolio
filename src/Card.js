@@ -22,13 +22,14 @@ function Card(props) {
         <div className="content">
           <ul>
             <li>
-              <strong>Name:</strong> {props.name}
+              <strong>Name: {props.name}</strong>
             </li>
             <li>
-              <strong>Github Repo Link:</strong> {props.github}
+              <strong><a href={props.github} target="_blank" >Click Here for Github Repo Link</a></strong>  
             </li>
             <li>
-              <strong>Deployed Link:</strong> {props.deployed}
+            <strong><a href={props.deployed} target="_blank" >Click Here for the Deployed Application</a></strong> 
+              
             </li>
           </ul>
         </div>
