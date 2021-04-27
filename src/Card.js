@@ -28,6 +28,9 @@ function Card({props}) {
               <strong>Name: {props.name}</strong>
             </li>
             <li>
+              <strong>Description: {props.description}</strong>
+            </li>
+            <li>
               <strong><a href={props.github} target="_blank" >Click Here to view the Github Repo</a></strong>  
             </li>
             <li>

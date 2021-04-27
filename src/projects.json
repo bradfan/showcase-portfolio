@@ -1,48 +1,44 @@
 [
-    {
-      "id": 1,
-      "name": "Password Generator",
-      "image": "/images/password.jpg",
-      "github": "https://github.com/bradfan/Password-Generator",
-      "deployed": "https://bradfan.github.io/Password-Generator/"
-    },
-    {
-        "id": 2,
-        "name": "Day Planner",
-        "image": "/images/dayplanner.png",
-        "github": "https://github.com/bradfan/day-planner",
-        "deployed": "https://bradfan.github.io/day-planner/"
-      },
-      {
-        "id": 3,
-        "name": "Weather Dashboard",
-        "image": "/images/weather.png",
-        "github": "https://github.com/bradfan/Weather-Dashboard",
-        "deployed": "https://bradfan.github.io/Weather-Dashboard/"
-      },
-      {
-        "id": 4,
-        "name": "Fitness Tracker",
-        "image": " ",
-        "github": "https://github.com/bradfan/fitness-tracker",
-        "deployed": "https://fitness-tracker-bradfan.herokuapp.com/?id=607a0a9ca6f9f702735cf4f0"
-      },
-      {
-        "id": 5,
-        "name": "Budget Tracker ",
-        "image": " ",
-        "github": "https://github.com/bradfan/Budget-Tracker",
-        "deployed": "https://finance-budget-tracker.herokuapp.com/"
-      },
-      {
-        "id": 6,
-        "name": "Employee Directory",
-        "image": " ",
-        "github": "https://github.com/bradfan/employee-directory",
-        "deployed": "https://lucid-knuth-c8ef6e.netlify.app/"
-      }
-    
-   
-  ]
-
-  
+  {
+    "name": "Password Generator",
+    "description": "This application creates random passwords for convenience and security.",
+    "image": "/images/password.png",
+    "github": "https://github.com/bradfan/Password-Generator",
+    "deployed": "https://bradfan.github.io/Password-Generator/"
+  },
+  {
+    "name": "Day Planner",
+    "description": "This application helps to organize tasks and appointments throughout the workday",
+    "image": "/images/dayplanner.png",
+    "github": "https://github.com/bradfan/day-planner",
+    "deployed": "https://bradfan.github.io/day-planner/"
+  },
+  {
+    "name": "Weather Dashboard",
+    "description": "This aplication checks the current weather and five day forecast for a selected city.",
+    "image": "/images/weather.png",
+    "github": "https://github.com/bradfan/Weather-Dashboard",
+    "deployed": "https://bradfan.github.io/Weather-Dashboard/"
+  },
+  {
+    "name": "Fitness Tracker",
+    "description": "This application helps to track your customized workouts with a display history.",
+    "image": "/images/fitness.png",
+    "github": "https://github.com/bradfan/fitness-tracker",
+    "deployed": "https://fitness-tracker-bradfan.herokuapp.com/?id=607a0a9ca6f9f702735cf4f0"
+  },
+  {
+    "name": "Budget Tracker",
+    "description": "This application allows you to keep track of your finances through expenses and income.",
+    "image": "/images/fitness.png",
+    "github": "https://github.com/bradfan/Budget-Tracker",
+    "deployed": "https://finance-budget-tracker.herokuapp.com/"
+  },
+  {
+    "name": "Employee Directory",
+    "description": "This application allows employers to access and sort their employee's data quickly.",
+    "image": "/images/employee.png",
+    "github": "https://github.com/bradfan/employee-directory",
+    "deployed": "https://lucid-knuth-c8ef6e.netlify.app/"
+  }
+]
