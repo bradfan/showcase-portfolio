@@ -19,8 +19,9 @@ const name = {
 };
 
 const pic = {
- 
-  // float: "right",
+   width: "300px", 
+   height: "300px",
+   
   // marginRight: "20px",
 };
 
@@ -56,7 +57,7 @@ function Header() {
       <div style={name} class="my_name ">
         Brad Tomlinson
       </div>
-      <img src= {face} alt="Brad Tomlinson" />
+      <img src= {face} style={pic} alt="Brad Tomlinson" />
     </div>
   );
 }

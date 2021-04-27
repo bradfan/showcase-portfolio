@@ -17,7 +17,10 @@ function Card({props}) {
 
       <div style={styles} className="card">
         <div className="img-container">
-          <img  src={props.image} alt={props.name} />
+          <img 
+          style={{ width: "200px", height: "200px" }}
+          src={props.image} 
+          alt={props.name} />
         </div>
         <div className="content">
           <ul>
