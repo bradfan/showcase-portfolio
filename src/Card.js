@@ -4,7 +4,7 @@ const styles = {
   display: "flex",
   flexDirection: "row",
   float: "left",
-  width: "33%",
+  width: "50%",
   padding: "0 10px",
   border: "3px solid black",
   borderRadius: "10px",

@@ -4,6 +4,7 @@ import Header from "./Header";
 import Card from "./Card";
 import Footer from "./Footer";
 import Section from "./Section";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
   state = {
