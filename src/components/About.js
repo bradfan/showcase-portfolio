@@ -5,7 +5,7 @@ const styles = {
   textAlign: "center",
   backgroundColor: "#FAEBD7",
 };
-const lineStyle = {};
+
 
 function About() {
   return (

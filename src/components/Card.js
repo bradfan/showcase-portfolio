@@ -40,14 +40,14 @@ function Card({ props }) {
             </li>
             <li style={lineStyle}>
               <strong>
-                <a href={props.github} target="_blank">
+                <a href={props.github} target="blank">
                   Click Here to view the Github Repo
                 </a>
               </strong>
             </li>
             <li style={lineStyle}>
               <strong>
-                <a href={props.deployed} target="_blank">
+                <a href={props.deployed} target="blank">
                   Click Here to Deploy the Application
                 </a>
               </strong>
