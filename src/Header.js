@@ -23,7 +23,6 @@ const name = {
   marginRight: "40%",
   fontWeight: "600",
   fontSize: "10rem",
-  // border: "3px solid black",
 };
 
 const pic = {
@@ -93,12 +92,7 @@ function Header() {
         </strong>
         <strong>
           <h5 style={{ fontWeight: "600", marginBottom: "-.33px" }}>
-            Learn more about me{" "}
-            <strong>
-              <a href="https://github.com/bradfan" target="blank">
-                HERE!!
-              </a>
-            </strong>{" "}
+            Click on the "About Me" button below to learn more.
           </h5>
         </strong>
       </div>

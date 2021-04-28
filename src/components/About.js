@@ -1,12 +1,16 @@
 import React from 'react'
+import newBackground from "images/serene.jpg";
 
-const style = {
+const styles = {
+    fontFamily: "Roboto, Times New Roman, Times, serif",
+    backgroundImage: `url(${newBackground})`,
+    textAlign: "center",
 
 }
 
 function About() {
     return (
-        <div>
+        <div style={styles}>
              <h1>About Brad Tomlinson</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipis
         

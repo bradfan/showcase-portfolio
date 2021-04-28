@@ -23,7 +23,7 @@ function NavTabs() {
               location.pathname === "/about" ? "nav-link active" : "nav-link"
             }
           >
-           About
+           About Me
           </Link>
         </li>
       </ul>
