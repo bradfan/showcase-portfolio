@@ -12,13 +12,11 @@ const styles = {
 };
 const lineStyle = {
   listStyleType: "none",
-}
+};
 
 function Card({ props }) {
   return (
-    
     <div>
-      
       <div style={styles} className="card">
         <div className="img-container">
           <img

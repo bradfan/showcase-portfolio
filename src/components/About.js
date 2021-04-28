@@ -22,7 +22,7 @@ function About() {
       </p>
       <p>
         Likewise, I feel at home either learning the latest in web technologies
-        or playing music with my friends, or working on my Jeep. No matter what
+        or playing music with my friends or working on my Jeep. No matter what
         I set my mind to, no job is too small and no task is insignificant.
       </p>
     </div>

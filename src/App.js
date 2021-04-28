@@ -7,7 +7,6 @@ import Card from "./components/Card";
 import About from "./components/About";
 import Footer from "./Footer";
 
-
 class App extends Component {
   state = {
     projects,
@@ -18,13 +17,13 @@ class App extends Component {
       <div>
         <Header></Header>
         <Router>
-        <NavTabs />
-        <Route exact path="/">
-        {this.state.projects.map((project) => (
-          <Card props={project} />
-        ))}
-        </Route>
-        <Route exact path="/about" component={About} />
+          <NavTabs />
+          <Route exact path="/">
+            {this.state.projects.map((project) => (
+              <Card props={project} />
+            ))}
+          </Route>
+          <Route exact path="/about" component={About} />
         </Router>
         <Footer></Footer>
       </div>
@@ -33,5 +32,3 @@ class App extends Component {
 }
 
 export default App;
-
-

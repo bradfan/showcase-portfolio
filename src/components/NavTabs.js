@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
-  const location = useLocation()
+  const location = useLocation();
   return (
     <div>
       <ul className="nav nav-tabs">
@@ -23,7 +23,7 @@ function NavTabs() {
               location.pathname === "/about" ? "nav-link active" : "nav-link"
             }
           >
-           About Me
+            About Me
           </Link>
         </li>
       </ul>
