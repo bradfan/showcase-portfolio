@@ -35,8 +35,8 @@ const pic = {
 
 function Header() {
   return (
-    <body>
-      <div style={styles}>
+    <body style={styles}>
+      <div >
         <nav>
           <ul>
             <strong>
@@ -80,6 +80,15 @@ function Header() {
         </div>
         <img src={face} style={pic} alt="Brad Tomlinson" />
       </div>
+      <div style={{textAlign: "center"}}>
+      <strong><h5 style = {{marginLeft: "20%", marginRight: "20%", fontWeight: "600",}}>
+        My Contact Information is found at the top and bottom of the page which
+        you may click on to Contact Me directly. You will also find links to my
+        LinkedIn and Github profiles as well as view and print a copy of My Resume
+        as well!
+      </h5></strong>
+    <strong><h5 style={{fontWeight: "600", marginBottom: "-.33px"}}>Learn more about me <strong><a href="https://github.com/bradfan" target="blank">HERE!!</a></strong> </h5></strong>
+    </div>
     </body>
   );
 }

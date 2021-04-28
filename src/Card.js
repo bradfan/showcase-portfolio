@@ -8,7 +8,6 @@ const styles = {
   padding: "0 10px",
   border: "3px solid black",
   borderRadius: "10px",
-  
   backgroundColor: "#FAEBD7",
 };
 const lineStyle = {
@@ -17,7 +16,9 @@ const lineStyle = {
 
 function Card({ props }) {
   return (
+    
     <div>
+      
       <div style={styles} className="card">
         <div className="img-container">
           <img
