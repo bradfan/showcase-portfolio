@@ -91,7 +91,7 @@ function Header() {
           </h5>
         </strong>
         <strong>
-          <h5 style={{ fontWeight: "600", marginBottom: "-.33px" }}>
+          <h5 style={{ fontWeight: "600" }}>
             Click on the "About Me" button below to learn more.
           </h5>
         </strong>
