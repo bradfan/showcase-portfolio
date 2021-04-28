@@ -20,9 +20,10 @@ const lineStyle = {
 
 const name = {
   float: "right",
-  marginRight: "10%",
+  marginRight: "40%",
   fontWeight: "600",
   fontSize: "10rem",
+  // border: "3px solid black",
 };
 
 const pic = {
@@ -30,13 +31,13 @@ const pic = {
   height: "300px",
   border: "3px solid black",
   borderRadius: "10px",
-  marginLeft: "5%",
+  marginLeft: "40%",
 };
 
 function Header() {
   return (
     <body style={styles}>
-      <div >
+      <div>
         <nav>
           <ul>
             <strong>
@@ -72,23 +73,35 @@ function Header() {
             </strong>
           </ul>
         </nav>
-
-        <div style={name} class="my_name ">
-          <strong>
-            <h1>Brad Tomlinson</h1>
-          </strong>
-        </div>
-        <img src={face} style={pic} alt="Brad Tomlinson" />
       </div>
-      <div style={{textAlign: "center"}}>
-      <strong><h5 style = {{marginLeft: "20%", marginRight: "20%", fontWeight: "600",}}>
-        My Contact Information is found at the top and bottom of the page which
-        you may click on to Contact Me directly. You will also find links to my
-        LinkedIn and Github profiles as well as view and print a copy of My Resume
-        as well!
-      </h5></strong>
-    <strong><h5 style={{fontWeight: "600", marginBottom: "-.33px"}}>Learn more about me <strong><a href="https://github.com/bradfan" target="blank">HERE!!</a></strong> </h5></strong>
-    </div>
+      <div style={name} class="my_name ">
+        <strong>
+          <h1>Brad Tomlinson</h1>
+        </strong>
+      </div>
+      <img src={face} style={pic} alt="Brad Tomlinson" />
+      <div style={{ textAlign: "center" }}>
+        <strong>
+          <h5
+            style={{ marginLeft: "20%", marginRight: "20%", fontWeight: "600" }}
+          >
+            My Contact Information is found at the top and bottom of the page
+            which you may click on to Contact Me directly. You will also find
+            links to my LinkedIn and Github profiles as well as view and print a
+            copy of My Resume as well!
+          </h5>
+        </strong>
+        <strong>
+          <h5 style={{ fontWeight: "600", marginBottom: "-.33px" }}>
+            Learn more about me{" "}
+            <strong>
+              <a href="https://github.com/bradfan" target="blank">
+                HERE!!
+              </a>
+            </strong>{" "}
+          </h5>
+        </strong>
+      </div>
     </body>
   );
 }
