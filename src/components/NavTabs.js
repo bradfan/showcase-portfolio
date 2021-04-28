@@ -1,6 +1,8 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
+  const location = useLocation()
   return (
     <div>
       <ul className="nav nav-tabs">
@@ -21,7 +23,7 @@ function NavTabs() {
               location.pathname === "/about" ? "nav-link active" : "nav-link"
             }
           >
-            About
+           About
           </Link>
         </li>
       </ul>
@@ -30,3 +32,5 @@ function NavTabs() {
 }
 
 export default NavTabs;
+
+// onClick={() => props.handlePageChange("About")}

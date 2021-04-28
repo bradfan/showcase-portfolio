@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import projects from "./projects.json";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./Header";
-import Card from "./Card";
+import NavTabs from "./components/NavTabs";
+import Card from "./components/Card";
+import About from "./components/About";
 import Footer from "./Footer";
-import Section from "./Section";
 
 
 class App extends Component {
@@ -15,12 +17,15 @@ class App extends Component {
     return (
       <div>
         <Header></Header>
-        {/* <Section></Section> */}
+        <Router>
+        <NavTabs />
+        <Route exact path="/">
         {this.state.projects.map((project) => (
-          <Card
-            props={project}
-          />
+          <Card props={project} />
         ))}
+        </Route>
+        <Route exact path="/about" component={About} />
+        </Router>
         <Footer></Footer>
       </div>
     );
@@ -28,3 +33,5 @@ class App extends Component {
 }
 
 export default App;
+
+{/* <Route exact path="/" component={CardList} /> */}
