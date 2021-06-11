@@ -64,7 +64,7 @@ function Header() {
             </strong>
             <strong>
               <a
-                href="https://drive.google.com/file/d/1XUXm46d8D-63uvcl7VKwCBYiSriAjOza/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ygd_FFeDK1f1M9kAhltrEYXJ4GWfHpjM/view?usp=sharing"
                 target="blank"
               >
                 <li style={lineStyle}>My Resume</li>
