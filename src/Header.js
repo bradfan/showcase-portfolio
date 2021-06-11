@@ -95,7 +95,7 @@ function Header() {
             My Contact Information is found at the top and bottom of the page
             which you may click on to Contact Me directly. You will also find
             links to my LinkedIn and Github profiles as well as view and print a
-            copy of My Resume as well!
+            copy of My Resume!
           </h5>
         </strong>
         <strong>
