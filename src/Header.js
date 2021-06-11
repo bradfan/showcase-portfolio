@@ -4,8 +4,15 @@ import face from "./images/face.jpeg";
 
 const styles = {
   fontFamily: "Roboto, Times New Roman, Times, serif",
-  boxSizing: "border-box",
+  // boxSizing: "border-box",
+  width: "100vw",
+  minHeight: "100vh",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
   backgroundImage: `url(${background})`,
+  backgroundAttachment: "fixed",
+  
 };
 const lineStyle = {
   listStyleType: "none",
@@ -15,7 +22,8 @@ const lineStyle = {
   marginTop: "2%",
   marginBottom: "2%",
   fontWeight: "600",
-  fontSize: "1rem",
+  fontSize: "1.2rem",
+  color: "black",
 };
 
 const name = {

@@ -9,6 +9,7 @@ const lineStyle = {
   listStyleType: "none",
   display: "inline-block",
   margin: "40px",
+  color: "black",
 };
 
 function Footer() {
