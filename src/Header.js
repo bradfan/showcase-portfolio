@@ -25,7 +25,7 @@ const lineStyle = {
   // marginTop: "2%",
   // marginBottom: "2%",
   // float: "right",
-  margin: "15px",
+  margin: "20px",
   fontWeight: "600",
   fontSize: "1.2rem",
   color: "black",
