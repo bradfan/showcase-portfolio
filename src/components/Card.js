@@ -1,18 +1,31 @@
 import React from "react";
+import { useMediaQuery } from 'react-responsive'
+
+const screenWidth = 1
+const cardWidth = screenWidth < 1100?"95%":"45%"
 
 const styles = {
   display: "flex",
   flexDirection: "row",
+  flexWrap: "wrap",
   float: "left",
-  width: "50%",
-  padding: "0 10px",
+  width: cardWidth,
+  margin: "2%",
+  padding: ".5%",
+  minWidth: "300px",
   border: "3px solid black",
   borderRadius: "10px",
   backgroundColor: "#FAEBD7",
+  
 };
 const lineStyle = {
   listStyleType: "none",
+  margin: "10px",
 };
+const textStyle = {
+width: "calc(100% - 200px)",
+
+}
 
 function Card({ props }) {
   return (
@@ -30,7 +43,7 @@ function Card({ props }) {
             alt={props.name}
           />
         </div>
-        <div className="content">
+        <div style = {textStyle}>
           <ul>
             <li style={lineStyle}>
               <strong>Name: {props.name}</strong>

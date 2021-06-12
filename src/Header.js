@@ -5,30 +5,35 @@ import face from "./images/face.jpeg";
 const styles = {
   fontFamily: "Roboto, Times New Roman, Times, serif",
   // boxSizing: "border-box",
-  width: "100vw",
+  width: "100%",
   minHeight: "100vh",
   backgroundPosition: "center",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   backgroundImage: `url(${background})`,
   backgroundAttachment: "fixed",
-  
 };
+const navLinks = {
+display: "flex",
+justifyContent: "flex-end",
+}
 const lineStyle = {
   listStyleType: "none",
   display: "inline-block",
-  marginLeft: "8%",
-  marginRight: "5%",
-  marginTop: "2%",
-  marginBottom: "2%",
+  // marginLeft: "8%",
+  // marginRight: "5%",
+  // marginTop: "2%",
+  // marginBottom: "2%",
+  // float: "right",
+  margin: "15px",
   fontWeight: "600",
   fontSize: "1.2rem",
   color: "black",
 };
 
 const name = {
-  float: "right",
-  marginRight: "40%",
+  margin: "0 auto",
+  textAlign: "center",
   fontWeight: "600",
   fontSize: "10rem",
 };
@@ -38,25 +43,26 @@ const pic = {
   height: "300px",
   border: "3px solid black",
   borderRadius: "10px",
-  marginLeft: "40%",
+  margin: "0 auto",
+  display: "block",
 };
 
 function Header() {
   return (
-    <body style={styles}>
+    <div style={styles}>
       <div>
         <nav>
-          <ul>
+          <ul style={navLinks}>
             <strong>
               <a href="mailto:brt.jst@gmail.com">
-                <li style={lineStyle}>Email</li>
+                <li style={lineStyle}>email</li>
               </a>
             </strong>
-            <strong>
+            {/* <strong>
               <a href="tel:520-304-2384">
                 <li style={lineStyle}>Phone: 520-304-2384</li>
               </a>
-            </strong>
+            </strong> */}
             <strong>
               <a
                 href="https://www.linkedin.com/in/brad-tomlinson-90210/"
@@ -75,7 +81,7 @@ function Header() {
                 href="https://drive.google.com/file/d/1ygd_FFeDK1f1M9kAhltrEYXJ4GWfHpjM/view?usp=sharing"
                 target="blank"
               >
-                <li style={lineStyle}>My Resume</li>
+                <li style={lineStyle}>Resume</li>
               </a>
             </strong>
           </ul>
@@ -104,7 +110,7 @@ function Header() {
           </h5>
         </strong>
       </div>
-    </body>
+    </div>
   );
 }
 
