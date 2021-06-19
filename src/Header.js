@@ -25,10 +25,12 @@ const lineStyle = {
   // marginTop: "2%",
   // marginBottom: "2%",
   // float: "right",
-  margin: "20px",
-  fontWeight: "600",
+  margin: "5px",
+  fontWeight: "400",
   fontSize: "1.2rem",
   color: "black",
+  // border: "1px solid white",
+  // borderRadius: "10px",
 };
 
 const name = {
@@ -55,7 +57,7 @@ function Header() {
           <ul style={navLinks}>
             <strong>
               <a href="mailto:brt.jst@gmail.com">
-                <li style={lineStyle}>email</li>
+                <li style={lineStyle}>brt.jst@gmail.com</li>
               </a>
             </strong>
             {/* <strong>
