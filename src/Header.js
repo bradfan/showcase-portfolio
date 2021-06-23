@@ -11,7 +11,7 @@ const styles = {
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   backgroundImage: `url(${background})`,
-  backgroundAttachment: "fixed",
+  // backgroundAttachment: "fixed",
 };
 const navLinks = {
 display: "flex",
