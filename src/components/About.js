@@ -17,7 +17,7 @@ function About() {
         in working with a company that will allow me to grow with them, both
         professionally and technically. I have a proven track record of
         contributing to many organizations through perseverance, communication
-        and dedication to the task at hand whether it be large or small. When I
+        and dedication to the tasks at hand; no job is too large or too small. When I
         am not on job I love outdoor activities such as hiking, camping and
         kayaking and when I am around the house I enjoy playing music, working
         on my Jeep and barbequing meals for my family.
