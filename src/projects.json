@@ -1,21 +1,21 @@
 [
   {
     "name": "Password Generator",
-    "description": "This application creates random passwords for convenience and security.",
+    "description": "This application creates random passwords for convenience and security. It is responsive to screens of all sizes.",
     "image": "/images/password.png",
     "github": "https://github.com/bradfan/Password-Generator",
     "deployed": "https://bradfan.github.io/Password-Generator/"
   },
   {
     "name": "Day Planner",
-    "description": "This application helps to organize tasks and appointments throughout the workday.",
+    "description": "This application helps to organize tasks and appointments throughout the workday. It is currently set up for desktop and similar sized screens.",
     "image": "/images/dayplanner.png",
     "github": "https://github.com/bradfan/day-planner",
     "deployed": "https://bradfan.github.io/day-planner/"
   },
   {
     "name": "Weather Dashboard",
-    "description": "This aplication checks the current weather and five day forecast for a selected city.",
+    "description": "This aplication checks the current weather and five day forecast for a selected city. It is constantly undergoing renovation and is responsive to a screen of any size.",
     "image": "/images/weather.png",
     "github": "https://github.com/bradfan/Weather-Dashboard",
     "deployed": "https://bradfan.github.io/Weather-Dashboard/"
@@ -35,10 +35,10 @@
     "deployed": "https://finance-budget-tracker.herokuapp.com/"
   },
   {
-    "name": "Employee Directory",
-    "description": "This application allows employers to access and sort their employee's data quickly.",
-    "image": "/images/employee.png",
-    "github": "https://github.com/bradfan/employee-directory",
-    "deployed": "https://lucid-knuth-c8ef6e.netlify.app/"
+    "name": "Passage",
+    "description": "This is a web application that allows the user to search for National Parks, Monuments, Trails and Historic Sites to explore. It utilizes MongoDB, Express, React and Node.",
+    "image": "/images/passage.png",
+    "github": "https://github.com/bradfan/real-parks",
+    "deployed": "https://passage-real-parks.herokuapp.com/signup"
   }
 ]
