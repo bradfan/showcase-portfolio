@@ -21,6 +21,8 @@ const styles = {
 const lineStyle = {
   listStyleType: "none",
   margin: "10px",
+  color: "black",
+  
 };
 const textStyle = {
 width: "calc(100% - 200px)",

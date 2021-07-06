@@ -15,14 +15,16 @@ const styles = {
 };
 const navLinks = {
 display: "flex",
-justifyContent: "flex-end",
+// justifyContent: "flex-end",
+margin: "0 auto",
+
 }
 const lineStyle = {
   listStyleType: "none",
   display: "inline-block",
   // marginLeft: "8%",
   // marginRight: "5%",
-  // marginTop: "2%",
+   marginTop: "2%",
   // marginBottom: "2%",
   // float: "right",
   margin: "5px",
