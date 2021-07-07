@@ -22,7 +22,7 @@ const lineStyle = {
   listStyleType: "none",
   margin: "10px",
   color: "black",
-  
+
 };
 const textStyle = {
 width: "calc(100% - 200px)",
@@ -52,6 +52,9 @@ function Card({ props }) {
             </li>
             <li style={lineStyle}>
               <strong>Description: {props.description}</strong>
+            </li>
+            <li style={lineStyle}>
+              <strong>Technologies: {props.technologies}</strong>
             </li>
             <li style={lineStyle}>
               <strong>
