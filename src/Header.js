@@ -100,9 +100,9 @@ function Header() {
       <div style={{ textAlign: "center" }}>
         <strong>
           <h5
-            style={{ marginLeft: "20%", marginRight: "20%", fontWeight: "600" }}
+            style={{ marginLeft: "20%", marginRight: "20%", fontWeight: "600", padding: "20px"}}
           >
-            My current email address is found at the top and bottom of the page
+            My current email address is found at the top of the page
             which you may click on to Contact Me directly. You will also find
             links to my LinkedIn and Github profiles as well as view and print a
             copy of My Resume!
