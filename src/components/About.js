@@ -16,7 +16,7 @@ function About() {
         learn and ability to contribute in a team environment. I am interested
         in working with a company that will allow me to grow with them, both
         professionally and technically. I have recently studied JavaScript, ES6+, CSS3,
-        HTML5, SQL, NoSQL, MongoDB, MySQL Express, React, Node, Handlebars,
+        HTML5, SQL, NoSQL, MongoDB, MySQL, Express, React, Node, Handlebars,
         JQuery & Bootstrap and I continue to improve and learn more technologies.
       </p>
       <p>
