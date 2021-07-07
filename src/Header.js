@@ -14,25 +14,18 @@ const styles = {
   // backgroundAttachment: "fixed",
 };
 const navLinks = {
-display: "flex",
-// justifyContent: "flex-end",
-margin: "0 auto",
-
-}
+  display: "flex",
+  justifyContent: "flex-end",
+  // margin: "0 auto",
+};
 const lineStyle = {
   listStyleType: "none",
   display: "inline-block",
-  // marginLeft: "8%",
-  // marginRight: "5%",
-   marginTop: "2%",
-  // marginBottom: "2%",
-  // float: "right",
-  margin: "5px",
+  marginTop: "2%",
+  margin: "10px",
   fontWeight: "400",
   fontSize: "1.2rem",
   color: "black",
-  // border: "1px solid white",
-  // borderRadius: "10px",
 };
 
 const name = {
@@ -100,12 +93,17 @@ function Header() {
       <div style={{ textAlign: "center" }}>
         <strong>
           <h5
-            style={{ marginLeft: "20%", marginRight: "20%", fontWeight: "600", padding: "20px"}}
+            style={{
+              marginLeft: "20%",
+              marginRight: "20%",
+              fontWeight: "600",
+              padding: "20px",
+            }}
           >
-            My current email address is found at the top of the page
-            which you may click on to Contact Me directly. You will also find
-            links to my LinkedIn and Github profiles as well as view and print a
-            copy of My Resume!
+            My current email address is found at the top of the page which you
+            may click on to Contact Me directly. You will also find links to my
+            LinkedIn and Github profiles as well as view and print a copy of My
+            Resume!
           </h5>
         </strong>
         <strong>
