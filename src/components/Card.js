@@ -6,9 +6,9 @@ const cardWidth = screenWidth < 1100?"95%":"45%"
 
 const styles = {
   display: "flex",
-  flexDirection: "row",
+  flexDirection: "column",
   flexWrap: "wrap",
-  float: "left",
+  // float: "center",
   width: cardWidth,
   margin: "2%",
   padding: ".5%",
@@ -34,12 +34,16 @@ function Card({ props }) {
     <div>
       <div style={styles} className="card">
         <div className="img-container">
+        <li style={lineStyle}>
+              <strong>Name: {props.name}</strong>
+            </li>
           <img
             style={{
               width: "200px",
               height: "200px",
               border: "1px solid black",
               borderRadius: "10px",
+              
             }}
             src={props.image}
             alt={props.name}
@@ -47,9 +51,7 @@ function Card({ props }) {
         </div>
         <div style = {textStyle}>
           <ul>
-            <li style={lineStyle}>
-              <strong>Name: {props.name}</strong>
-            </li>
+          
             <li style={lineStyle}>
               <strong>Description: {props.description}</strong>
             </li>

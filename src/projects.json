@@ -8,7 +8,7 @@
     "deployed": "https://bradfan.github.io/Password-Generator/"
   },
   {
-    "name": "Day Planner",
+    "name": "Sundial Day Planner",
     "description": "This application helps to organize tasks and appointments throughout the workday. It is currently set up for desktop and similar sized screens.",
     "technologies": "HTML, CSS, JQuery, Bootstrap",
     "image": "/images/dayplanner.png",
