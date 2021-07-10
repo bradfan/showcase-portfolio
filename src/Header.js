@@ -16,7 +16,7 @@ const styles = {
 };
 const navLinks = {
   display: "flex",
-  justifyContent: "flex-end",
+  justifyContent: "center",
   // margin: "0 auto",
 };
 const lineStyle = {
