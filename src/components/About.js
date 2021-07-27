@@ -22,9 +22,9 @@ function About() {
       <p>
         I have a proven track record of contributing to many organizations
         through perseverance, communication and dedication to the tasks at hand;
-        no job is too large or too small.When I am not on the job I love outdoor
-        activities such as hiking, camping and kayaking and when I am around the
-        house I enjoy playing music, working on my Jeep and barbequing meals for
+        no job is too large or too small. When I am not on the job I love outdoor
+        activities such as hiking, camping and kayaking; when I am around the
+        house I enjoy playing music, working on my Jeep, home improvements and barbequing meals for
         my family.
       </p>
       <p>
