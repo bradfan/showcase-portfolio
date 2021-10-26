@@ -22,14 +22,14 @@ html {
   font-family: Roboto, Times New Roman, Times, serif;
   box-sizing: "border-box";
 
-  height: 85vh;
+  height: 95vh;
   background-position: top;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   background-image: url("./images/header.jpg");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
   /* backgroundAttachment: "fixed", */
   /* padding: "30px", */
 }
@@ -49,6 +49,9 @@ li {
   font-weight: 400;
   font-size: 1.2rem;
   color: black;
+}
+li:hover {
+  transform: translateY(-3px);
 }
 .my-name {
   margin: 0 auto;
@@ -80,9 +83,10 @@ h5 {
   padding: "20px";
   padding-top: 3rem;
 }
-h5:last-child {
+/* h5:last-child {
   padding-top: 1rem;
-}
+  padding-bottom: 2rem;
+} */
 
 .card {
   display: flex;
@@ -95,7 +99,6 @@ h5:last-child {
   border: 3px solid black;
   border-radius: 10px;
   background-color: #faebd7;
-  
 }
 .line {
   list-style-type: none;
@@ -121,4 +124,16 @@ h5:last-child {
 .list {
   padding: 0;
   text-align: center;
+}
+
+.nav-tabs {
+  font-family: Roboto, Times New Roman, Times, serif;
+}
+
+.nav-item:hover {
+  transform: translateY(-3px);
+}
+
+.nav-item:active {
+  transform: translateY(-1px);
 }

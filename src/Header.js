@@ -59,9 +59,6 @@ function Header() {
             Resume!
           </h5>
         </strong>
-        <strong>
-          <h5>Click on the "About Me" button below to learn more.</h5>
-        </strong>
       </div>
     </div>
   );
