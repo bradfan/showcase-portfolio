@@ -4,8 +4,8 @@ import face from "./images/face.jpeg";
 
 function Header() {
   return (
-    <div class="header-primary">
-      <nav class="nav-primary">
+    <div className="header-primary">
+      <nav className="nav-primary">
         <ul>
           <strong>
             <a href="mailto:brt.jst@gmail.com">
@@ -41,7 +41,7 @@ function Header() {
         </ul>
       </nav>
 
-      <div class="my-name">
+      <div className="my-name">
         <strong>
           <h1>Brad Tomlinson</h1>
         </strong>

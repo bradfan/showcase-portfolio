@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: #faebd7;
 }
 
 code {
@@ -12,15 +14,22 @@ code {
     monospace;
 }
 
+html {
+  /* this defines what 1 rem is */
+  /* font-size: 62.5%; */
+}
 .header-primary {
   font-family: Roboto, Times New Roman, Times, serif;
-  /* box-sizing: "border-box", */
-  width: 100%;
-  min-height: 100vh;
-  background-position: center;
+  box-sizing: "border-box";
+
+  height: 85vh;
+  background-position: top;
   background-size: cover;
+  position: relative;
   background-repeat: no-repeat;
   background-image: url("./images/header.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   /* backgroundAttachment: "fixed", */
   /* padding: "30px", */
 }
@@ -28,7 +37,8 @@ code {
 .nav-primary {
   display: flex;
   justify-content: center;
-  /* margin: "0 auto", */
+  margin: "0 auto";
+  /* font-size: 10rem; */
 }
 
 li {
@@ -85,6 +95,7 @@ h5:last-child {
   border: 3px solid black;
   border-radius: 10px;
   background-color: #faebd7;
+  
 }
 .line {
   list-style-type: none;
