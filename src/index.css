@@ -60,10 +60,6 @@ li:hover {
   font-size: 10rem;
 }
 
-/* .pic-box {
-  padding-bottom: 10%;
-} */
-
 .pic {
   width: 300px;
   height: 300px;
@@ -83,10 +79,6 @@ h5 {
   padding: "20px";
   padding-top: 3rem;
 }
-/* h5:last-child {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-} */
 
 .card {
   display: flex;
@@ -136,4 +128,15 @@ h5 {
 
 .nav-item:active {
   transform: translateY(-1px);
+}
+
+.about-text {
+  font-family: Roboto, Times New Roman, Times, serif;
+  text-align: center;
+  background-color: #faebd7;
+}
+
+.about-text-box {
+  padding: 2% 10% 2% 10%;
+  font-size: 1.3rem;
 }
