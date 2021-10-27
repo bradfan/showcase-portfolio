@@ -5,7 +5,7 @@ function About() {
     <div class="about-box">
       <div class="collage">
         <img
-          src="img/nat-1-large.jpg"
+          src="../../img/lake.JPG"
           alt="Photo 1"
           class="collage_photo collage_photo--p1"
         />
@@ -20,9 +20,9 @@ function About() {
           class="collage_photo collage_photo--p3"
         />
       </div>
-      <div className="about-text">
+      <div className="about-text-box">
         <h1>About Brad Tomlinson</h1>
-        <div className="about-text-box">
+        <div className="about-text">
           <p>
             I have a wealth of attributes which I have earned through a lifetime
             of experiences; my work history and my accomplishments reflect my

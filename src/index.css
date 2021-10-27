@@ -18,6 +18,8 @@ html {
   /* this defines what 1 rem is */
   /* font-size: 62.5%; */
 }
+/* HEADER */
+
 .header-primary {
   font-family: Roboto, Times New Roman, Times, serif;
   box-sizing: "border-box";
@@ -119,6 +121,7 @@ h5 {
   padding: 0;
   text-align: center;
 }
+/* NAV TABS */
 
 .nav-tabs {
   font-family: Roboto, Times New Roman, Times, serif;
@@ -132,13 +135,42 @@ h5 {
   transform: translateY(-1px);
 }
 
-.about-text {
+/* ABOUT */
+
+.collage {
+  position: relative; }
+  .collage_photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    outline-offset: 2rem; }
+    .collage_photo--p1 {
+      left: 0;
+      top: -2rem; }
+    .collage_photo--p2 {
+      right: 0;
+      top: 2rem; }
+    .collage_photo--p3 {
+      left: 20%;
+      top: 10rem; }
+    .collage_photo:hover {
+      outline: 1.5rem solid #55c57a;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
+  .collage:hover .collage_photo:not(:hover) {
+    transform: scale(0.95); }
+
+.about-text-box {
   font-family: Roboto, Times New Roman, Times, serif;
   text-align: center;
   background-color: #faebd7;
 }
 
-.about-text-box {
+.about-text {
   padding: 2% 10% 2% 10%;
   font-size: 1.3rem;
 }
