@@ -6,21 +6,20 @@ import river from "../images/river.JPG";
 function About() {
   return (
     <div class="about-box">
-      <div class="collage">
-        <img 
-        src={lake} 
-        alt="Lake" 
-        class="collage_photo collage_photo--p1" />
-        <img
-          src={mountain}
-          alt="Mountain"
-          class="collage_photo collage_photo--p2"
-        />
-        <img
-          src={river}
-          alt="River"
-          class="collage_photo collage_photo--p3"
-        />
+      <div class="container">
+        <div class="collage">
+          <img src={lake} alt="Lake" class="collage_photo collage_photo--p1" />
+          <img
+            src={mountain}
+            alt="Mountain"
+            class="collage_photo collage_photo--p2"
+          />
+          <img
+            src={river}
+            alt="River"
+            class="collage_photo collage_photo--p3"
+          />
+        </div>
       </div>
       <div className="about-text-box">
         <h1>About Brad Tomlinson</h1>
