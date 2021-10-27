@@ -1,22 +1,24 @@
 import React from "react";
+import lake from "../images/lake.JPG";
+import mountain from "../images/mountain.jpg";
+import river from "../images/river.JPG";
 
 function About() {
   return (
     <div class="about-box">
       <div class="collage">
+        <img 
+        src={lake} 
+        alt="Lake" 
+        class="collage_photo collage_photo--p1" />
         <img
-          src="../../img/lake.JPG"
-          alt="Photo 1"
-          class="collage_photo collage_photo--p1"
-        />
-        <img
-          src="img/nat-2-large.jpg"
-          alt="Photo 2"
+          src={mountain}
+          alt="Mountain"
           class="collage_photo collage_photo--p2"
         />
         <img
-          src="img/nat-3-large.jpg"
-          alt="Photo 3"
+          src={river}
+          alt="River"
           class="collage_photo collage_photo--p3"
         />
       </div>

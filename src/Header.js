@@ -1,6 +1,6 @@
 import React from "react";
-
 import face from "./images/face.jpeg";
+
 
 function Header() {
   return (
