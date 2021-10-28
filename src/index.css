@@ -137,13 +137,15 @@ h5 {
 
 /* ABOUT */
 .about-box {
-  position : sticky;
-}
-.collage {
   position: relative;
 }
+.collage {
+  
+}
 .collage_photo {
-  width: 45%;
+   /* width: 200px; */
+  /* width: 15%; */
+  
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   position: absolute;
@@ -152,20 +154,25 @@ h5 {
   outline-offset: 2rem;
 }
 .collage_photo--p1 {
-  left: 0;
-  top: -2rem;
+  height:30%;
+  right: 25%;
+  top: -15rem;
 }
 .collage_photo--p2 {
-  right: 0;
-  top: 2rem;
+  height:30%;
+  left: 25%;
+  top: -16rem;
 }
+
 .collage_photo--p3 {
-  left: 20%;
-  top: 10rem;
+  height:40%;
+  left: 45%;
+  top: -20rem;
 }
+
 .collage_photo:hover {
-  outline: 1.5rem solid rgb(165, 142, 42);
-  transform: scale(1.05) translateY(-0.5rem);
+  /* outline: 1.5rem solid rgb(165, 142, 42); */
+  transform: scale(1.5) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
 }
