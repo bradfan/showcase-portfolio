@@ -32,3 +32,6 @@ class App extends Component {
 }
 
 export default App;
+
+// git push -u origin edit-branch
+// to push this branch
