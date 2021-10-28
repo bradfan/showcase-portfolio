@@ -65,10 +65,7 @@ function Header() {
       <div class="header-secondary">
         <strong>
           <h5>
-            My current email address is found at the top of the page which you
-            may click on to Contact Me directly. You will also find links to my
-            LinkedIn and Github profiles as well as view and print a copy of My
-            Resume!
+           Click on the links above to email me, see my LinkedIn and Github profiles or view and print my resume!
           </h5>
         </strong>
       </div>
