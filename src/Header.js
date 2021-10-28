@@ -1,10 +1,22 @@
 import React from "react";
 import face from "./images/face.jpeg";
-
+import lake from "./images/lake.JPG";
+import mountain from "./images/mountain.jpg";
 
 function Header() {
   return (
     <div className="header-primary">
+      <div class="container">
+        <div class="collage">
+          <img src={lake} alt="Lake" class="collage_photo collage_photo--p1" />
+          <img
+            src={mountain}
+            alt="Mountain"
+            class="collage_photo collage_photo--p2"
+          />
+        </div>
+      </div>
+
       <nav className="nav-primary">
         <ul>
           <strong>
