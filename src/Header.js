@@ -17,6 +17,16 @@ function Header() {
         </div>
       </div>
 
+     
+
+      <div className="my-name">
+        <strong>
+          <h1>Brad Tomlinson</h1>
+        </strong>
+      </div>
+      <div class="pic-box">
+        <img class="pic" src={face} alt="Brad Tomlinson" />
+      </div>
       <nav className="nav-primary">
         <ul>
           <strong>
@@ -52,15 +62,6 @@ function Header() {
           </strong>
         </ul>
       </nav>
-
-      <div className="my-name">
-        <strong>
-          <h1>Brad Tomlinson</h1>
-        </strong>
-      </div>
-      <div class="pic-box">
-        <img class="pic" src={face} alt="Brad Tomlinson" />
-      </div>
 
       <div class="header-secondary">
         <strong>
