@@ -54,6 +54,7 @@ li {
 }
 li:hover {
   transform: translateY(-3px);
+  color:green;
 }
 .my-name {
   margin: 0 auto;
