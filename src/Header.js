@@ -54,7 +54,7 @@ function Header() {
           </strong>
           <strong>
             <a
-              href="https://drive.google.com/file/d/1ygd_FFeDK1f1M9kAhltrEYXJ4GWfHpjM/view?usp=sharing"
+              href="https://1drv.ms/b/s!Akf67WBgSDkQjwvbXPLMzIa2Xe30?e=CGhfWx"
               target="blank"
             >
               <li>Resume</li>
@@ -62,7 +62,13 @@ function Header() {
           </strong>
         </ul>
       </nav>
-
+      <div class="header-secondary">
+        <strong>
+          <h5>
+          I am a web developer who is leveraging a multi-faceted background to provide unique perspectives on how end-users interact with web applications. I am an innovative problem-solver who is passionate about personal growth and web development.
+          </h5>
+        </strong>
+      </div>
       <div class="header-secondary">
         <strong>
           <h5>
