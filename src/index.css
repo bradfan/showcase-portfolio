@@ -25,7 +25,7 @@ html {
   box-sizing: "border-box";
 
   height: 95vh;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -34,12 +34,16 @@ html {
   clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
   /* backgroundAttachment: "fixed", */
   /* padding: "30px", */
+  object-fit: cover;
 }
 
 .nav-primary {
-  display: flex;
-  justify-content: center;
-  margin: "0 auto";
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  width: 100%;
+   /* display: flex; */
+   text-align: center;
+  margin: 0 auto; 
   /* font-size: 10rem; */
 }
 
@@ -54,7 +58,7 @@ li {
 }
 li:hover {
   transform: translateY(-3px);
-  color:green;
+  color:black;
 }
 .my-name {
   margin: 0 auto;
@@ -66,7 +70,7 @@ li:hover {
 .pic {
   width: 20%;
   /* height: 20%; */
-  border: 3px solid black;
+  
   border-radius: 10px;
   margin: 0 auto;
   display: block;
@@ -88,8 +92,8 @@ h5 {
   margin-left: 20%;
   margin-right: 20%;
   font-weight: 600;
-  padding: "20px";
-  padding-top: 3rem;
+  /* padding: 20px; */
+  padding-top: 1rem;
 }
 
 .card {
@@ -102,12 +106,12 @@ h5 {
   min-width: 300px;
   border: 3px solid black;
   border-radius: 10px;
-  background-color: #faebd7;
+  background-color: #913a24;
 }
 .line {
   list-style-type: none;
   text-align: center;
-  color: black;
+  color: #faebd7;
 }
 
 .img {
@@ -164,11 +168,13 @@ h5 {
   width: 20%;
   left: 1rem;
   top: 1rem;
+  transform: rotate(-5deg); 
 }
 .collage_photo--p2 {
   width: 20%;
   right: 1rem;
   top: 1rem;
+  transform: rotate(5deg); 
 }
 
 .collage_photo--p3 {
