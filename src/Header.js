@@ -17,8 +17,6 @@ function Header() {
         </div>
       </div>
 
-     
-
       <div className="my-name">
         <strong>
           <h1>Brad Tomlinson</h1>
@@ -65,14 +63,18 @@ function Header() {
       <div class="header-secondary">
         <strong>
           <h5>
-          I am a web developer who is leveraging a multi-faceted background to provide unique perspectives on how end-users interact with web applications. I am an innovative problem-solver who is passionate about personal growth and web development.
+            I am a web developer who is leveraging a multi-faceted background to
+            provide unique perspectives on how end-users interact with web
+            applications. I am an innovative problem-solver who is passionate
+            about personal growth and web development.
           </h5>
         </strong>
       </div>
       <div class="header-secondary">
         <strong>
           <h5>
-           Click on the links above to email me, see my LinkedIn and Github profiles or view and print my resume!
+            Click on the links above to email me, see my LinkedIn and Github
+            profiles or view and print my resume!
           </h5>
         </strong>
       </div>

@@ -32,8 +32,6 @@ html {
   background-image: url("./images/header.jpg");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
-  /* backgroundAttachment: "fixed", */
-  /* padding: "30px", */
   object-fit: cover;
 }
 
@@ -41,10 +39,8 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   width: 100%;
-   /* display: flex; */
-   text-align: center;
-  margin: 0 auto; 
-  /* font-size: 10rem; */
+  text-align: center;
+  margin: 0 auto;
 }
 
 li {
@@ -56,28 +52,29 @@ li {
   font-size: 1.2rem;
   color: black;
 }
+
 li:hover {
   transform: translateY(-3px);
-  color:black;
+  color: black;
 }
+
 .my-name {
   margin: 0 auto;
   text-align: center;
   font-weight: 600;
   font-size: 10rem;
+  z-index: 30;
 }
 
 .pic {
   width: 20%;
-  /* height: 20%; */
-  
   border-radius: 10px;
   margin: 0 auto;
   display: block;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  
 
 }
+
 .pic:hover {
   transform: scale(1.05);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
@@ -85,15 +82,18 @@ li:hover {
   transition: all 0.2s;
 }
 
+
 .header-secondary {
   text-align: center;
+
 }
+
 h5 {
   margin-left: 20%;
   margin-right: 20%;
   font-weight: 600;
-  /* padding: 20px; */
   padding-top: 1rem;
+  
 }
 
 .card {
@@ -168,13 +168,13 @@ h5 {
   width: 20%;
   left: 1rem;
   top: 1rem;
-  transform: rotate(-5deg); 
+  transform: rotate(-5deg);
 }
 .collage_photo--p2 {
   width: 20%;
   right: 1rem;
   top: 1rem;
-  transform: rotate(5deg); 
+  transform: rotate(5deg);
 }
 
 .collage_photo--p3 {
