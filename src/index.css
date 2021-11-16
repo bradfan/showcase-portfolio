@@ -23,24 +23,22 @@ html {
 .header-primary {
   font-family: Roboto, Times New Roman, Times, serif;
   box-sizing: "border-box";
-
   height: 95vh;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+  background-position: top;
+  background-size: auto;
   background-repeat: no-repeat;
   background-image: url("./images/header.jpg");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
   object-fit: cover;
+  /* overflow: hidden; */
 }
 
 .nav-primary {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 100%;
   text-align: center;
-  margin: 0 auto;
 }
 
 li {
@@ -72,20 +70,11 @@ li:hover {
   margin: 0 auto;
   display: block;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-
-}
-
-.pic:hover {
-  transform: scale(1.05);
-  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
-  transition: all 0.2s;
 }
-
 
 .header-secondary {
   text-align: center;
-
 }
 
 h5 {
@@ -93,21 +82,21 @@ h5 {
   margin-right: 20%;
   font-weight: 600;
   padding-top: 1rem;
-  
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  /* width: {cardWidth} */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   margin: 2%;
   padding: 0.5%;
-  min-width: 300px;
-  border: 3px solid black;
+  /* min-width: 450px; */
+  border: none;
   border-radius: 10px;
   background-color: #913a24;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  
 }
+
 .line {
   list-style-type: none;
   text-align: center;
@@ -115,8 +104,13 @@ h5 {
 }
 
 .img {
-  width: 200px;
-  height: 200px;
+
+  display:block;
+  height: 70%;
+  width: 70%;
+  aspect-ratio: 14/11;
+  object-fit: cover;
+  object-position: top;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
@@ -142,10 +136,12 @@ h5 {
 
 .nav-item:hover {
   transform: translateY(-3px);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
 }
 
 .nav-item:active {
   transform: translateY(-1px);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
 }
 
 /* ABOUT */
@@ -183,14 +179,10 @@ h5 {
 }
 
 .collage_photo:hover {
-  /* outline: 1.5rem solid rgb(165, 142, 42); */
   transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
 }
-/* .collage:hover .collage_photo:not(:hover) {
-  transform: scale(0.95);
-} */
 
 .about-text-box {
   font-family: Roboto, Times New Roman, Times, serif;

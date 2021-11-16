@@ -1,7 +1,6 @@
 import React from "react";
-import lake from "../images/lake.JPG";
-import mountain from "../images/mountain.jpg";
 import river from "../images/river.JPG";
+
 
 function About() {
   return (
