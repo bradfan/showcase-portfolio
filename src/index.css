@@ -84,9 +84,15 @@ h5 {
   padding-top: 1rem;
 }
 
+/* CARD */
+
+/* .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+} */
 .card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin: 2%;
   padding: 0.5%;
   /* min-width: 450px; */

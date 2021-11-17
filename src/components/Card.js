@@ -6,7 +6,7 @@ const cardWidth = screenWidth < 1100 ? "95%" : "45%";
 
 function Card({ props }) {
   return (
-    <div>
+    <div className="card-container">
       <div className="card">
         <div className="img-container">
           <p className="line">
