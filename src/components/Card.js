@@ -10,7 +10,7 @@ function Card({ props }) {
 
       <div className="card-container">
     <div className="card">
-    <div className="card-side card-side-front">
+    <div className="card card-side card-side-front">
     <div className="img-container">
         <p className="line">
           <strong>Name: {props.name}</strong>
@@ -19,7 +19,7 @@ function Card({ props }) {
       </div>
     </div>
 
-    <div className="card-side card-side-back">
+    <div className="card card-side card-side-back">
     <div class="text">
         <ul className="list">
           <li className="line">
