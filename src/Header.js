@@ -60,6 +60,7 @@ function Header() {
           </strong>
         </ul>
       </nav>
+      <div class="header-info">
       <div class="header-secondary">
         <strong>
           <h5>
@@ -69,8 +70,8 @@ function Header() {
             about personal growth and web development.
           </h5>
         </strong>
-      </div>
-      <div class="header-secondary">
+      {/* </div>
+      <div class="header-secondary"> */}
         <strong>
           <h5>
             Click on the links above to email me, see my LinkedIn and Github
@@ -78,6 +79,8 @@ function Header() {
           </h5>
         </strong>
       </div>
+      </div>
+      
     </div>
   );
 }
