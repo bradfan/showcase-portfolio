@@ -131,12 +131,13 @@ h5 {
   display: flex;
   text-align: center;
   margin: 0 auto;
+  transition: all 0.4s ease;
 }
 
 .img:hover {
   transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.4);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 
 }
 .text {
