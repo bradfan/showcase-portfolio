@@ -19,7 +19,7 @@ function Header() {
 
       <div className="my-name">
         <strong>
-          <h1>Brad Tomlinson</h1>
+          <h2>Brad Tomlinson</h2>
         </strong>
       </div>
       <div class="pic-box">
@@ -52,7 +52,7 @@ function Header() {
           </strong>
           <strong>
             <a
-              href="https://1drv.ms/b/s!Akf67WBgSDkQjwvbXPLMzIa2Xe30?e=CGhfWx"
+              href="https://1drv.ms/u/s!Akf67WBgSDkQi3TO9FYsKntpsDFF?e=LG3LZa"
               target="blank"
             >
               <li>Resume</li>

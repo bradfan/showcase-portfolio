@@ -17,7 +17,7 @@
   },
   {
     "name": "Weather Dashboard",
-    "description": "This aplication checks the current weather and five day forecast for a selected city. It is constantly undergoing renovation and is responsive to a screen of any size.",
+    "description": "This aplication checks the current weather and five day forecast for a selected city. It is responsive to a screen of any size.",
     "technologies": "HTML, CSS, Javascript, Fetch APIs",
     "image": "/images/weather.png",
     "github": "https://github.com/bradfan/Weather-Dashboard",
