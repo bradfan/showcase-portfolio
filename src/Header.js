@@ -19,7 +19,7 @@ function Header() {
 
       <div className="my-name">
         <strong>
-          <h1>Brad Tomlinson</h1>
+          <h2>Brad Tomlinson</h2>
         </strong>
       </div>
       <div class="pic-box">

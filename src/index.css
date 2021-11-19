@@ -60,7 +60,7 @@ li:hover {
   margin: 0 auto;
   text-align: center;
   font-weight: 600;
-  font-size: 10rem;
+  /* font-size: 10rem; */
   z-index: 3000;
 }
 
