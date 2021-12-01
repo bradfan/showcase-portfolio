@@ -52,7 +52,7 @@ function Header() {
           </strong>
           <strong>
             <a
-              href="https://1drv.ms/u/s!Akf67WBgSDkQi3TO9FYsKntpsDFF?e=LG3LZa"
+              href="https://1drv.ms/b/s!Akf67WBgSDkQjwvbXPLMzIa2Xe30?e=GfkElp"
               target="blank"
             >
               <li>Resume</li>
